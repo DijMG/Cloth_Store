@@ -108,7 +108,7 @@ document.getElementById("indivi_purchase").addEventListener("click",function(){
             console.log(Clothing_Data[x].Id,Current_Chosen_Product_Id);
             if(Clothing_Data[x].Id == Current_Chosen_Product_Id){
                 if(Clothing_Data[x].stock >= amount){
-                    Clothing_Data[x].stock -= amount; 
+                    Clothing_Data[x].stock -= Math.abs(amount); 
                     Item_Check(Clothing_Data[x]); 
                     break;
                 }else{
