@@ -57,7 +57,6 @@ Fetch_Clothing_Data()
             let discounted_price = parseInt(Info[x].Price - (Info[x].Price * (Info[x].discount_state/100)));
             discounted_price += .99;
             Discount.textContent = discounted_price + " $";
-            Discount.textContent[Discount.textContent.length]
             Main.appendChild(Discount)
         }
 
