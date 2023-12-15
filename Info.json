@@ -1,0 +1,56 @@
+[
+    {
+        "Type":"T-Shirt",
+        "Price":"99.99",
+        "Image":"Cloth1.jfif",
+        "discount_state":"",
+        "Description":"Awesome blue T-shirt, very cool",
+        "stock":125,
+        "Id":1
+    },
+    {
+        "Type":"Coat",
+        "Price":"89.99",
+        "Image":"Cloth2.jfif",
+        "discount_state":"15",
+        "Description":"Awesome coat 2",
+        "stock":175,
+        "Id":2
+    },
+    {
+        "Type":"T-Shirt",
+        "Price":"19.99",
+        "Image":"Cloth1.jfif",
+        "discount_state":"",
+        "Description":"Not awesome blue T-shirt, very bad",
+        "stock":2,
+        "Id":3
+    },
+    {
+        "Type":"Coat",
+        "Price":"119.99",
+        "Image":"Cloth2.jfif",
+        "discount_state":"15",
+        "Description":"Awesome coat",
+        "stock":113,
+        "Id":4
+    },
+    {
+        "Type":"T-Shirt",
+        "Price":"59.99",
+        "Image":"Cloth1.jfif",
+        "discount_state":"",
+        "Description":"Mediocre blue T-shirt",
+        "stock":123,
+        "Id":5
+    },
+    {
+        "Type":"Coat",
+        "Price":"29.99",
+        "Image":"Cloth2.jfif",
+        "discount_state":"15",
+        "Description":"bad coat",
+        "stock":543,
+        "Id":6
+    }
+]
